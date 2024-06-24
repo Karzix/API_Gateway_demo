@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WebAPI.Product.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("~/product-api/[controller]")]
     [ApiController]
     public class ProductController : ControllerBase
     {
