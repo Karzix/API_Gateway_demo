@@ -1,0 +1,31 @@
+﻿{
+    "Routes": [
+        {
+            "DownstreamPathTemplate": "/product-api/{controller}",
+            "DownstreamScheme": "https",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5001
+                }
+            ],
+            "UpstreamHttpMethod": [ "Get" ],
+            "UpstreamPathTemplate": "/product-gateway/{controller}"
+        },
+        {
+            "DownstreamPathTemplate": "/card-api/{controller}",
+            "DownstreamScheme": "https",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 6001
+                }
+            ],
+            "UpstreamHttpMethod": [ "Get" ],
+            "UpstreamPathTemplate": "/card-gateway/{controller}"
+        }
+    ],
+    "GlobalConfiguration": {
+        "BaseUrl" :  "https://localhost5021"
+    }
+}
