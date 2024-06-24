@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebAPI.Cart")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d08cbee537cca567244245f650c773d278d92f1f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+249919f6dfe8febf153c0224797ff9d2d5ebc7cb")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebAPI.Cart")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebAPI.Cart")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
