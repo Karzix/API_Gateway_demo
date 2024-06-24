@@ -30,3 +30,4 @@ D:\GitHub\API_Gateway_demo\OcelotGateway\WebAPI.Cart\obj\Debug\net6.0\refint\Web
 D:\GitHub\API_Gateway_demo\OcelotGateway\WebAPI.Cart\obj\Debug\net6.0\WebAPI.Cart.pdb
 D:\GitHub\API_Gateway_demo\OcelotGateway\WebAPI.Cart\obj\Debug\net6.0\WebAPI.Cart.genruntimeconfig.cache
 D:\GitHub\API_Gateway_demo\OcelotGateway\WebAPI.Cart\obj\Debug\net6.0\ref\WebAPI.Cart.dll
+D:\GitHub\API_Gateway_demo\OcelotGateway\WebAPI.Cart\obj\Debug\net6.0\WebAPI.Cart.sourcelink.json

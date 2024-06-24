@@ -30,3 +30,4 @@ D:\GitHub\API_Gateway_demo\OcelotGateway\WebAPI.Product\obj\Debug\net6.0\refint\
 D:\GitHub\API_Gateway_demo\OcelotGateway\WebAPI.Product\obj\Debug\net6.0\WebAPI.Product.pdb
 D:\GitHub\API_Gateway_demo\OcelotGateway\WebAPI.Product\obj\Debug\net6.0\WebAPI.Product.genruntimeconfig.cache
 D:\GitHub\API_Gateway_demo\OcelotGateway\WebAPI.Product\obj\Debug\net6.0\ref\WebAPI.Product.dll
+D:\GitHub\API_Gateway_demo\OcelotGateway\WebAPI.Product\obj\Debug\net6.0\WebAPI.Product.sourcelink.json

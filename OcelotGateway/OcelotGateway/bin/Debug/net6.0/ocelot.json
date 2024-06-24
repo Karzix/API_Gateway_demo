@@ -13,7 +13,7 @@
             "UpstreamPathTemplate": "/product-gateway/{controller}"
         },
         {
-            "DownstreamPathTemplate": "/card-api/{controller}",
+            "DownstreamPathTemplate": "/cart-api/{controller}",
             "DownstreamScheme": "https",
             "DownstreamHostAndPorts": [
                 {
@@ -22,7 +22,7 @@
                 }
             ],
             "UpstreamHttpMethod": [ "Get" ],
-            "UpstreamPathTemplate": "/card-gateway/{controller}"
+            "UpstreamPathTemplate": "/cart-gateway/{controller}"
         }
     ],
     "GlobalConfiguration": {
