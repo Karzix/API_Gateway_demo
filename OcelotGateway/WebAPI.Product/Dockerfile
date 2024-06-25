@@ -8,15 +8,15 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["WebAPI.Product/WebAPI.Product.csproj", "WebAPI.Product/"]
-RUN dotnet restore "./WebAPI.Product/WebAPI.Product.csproj"
+COPY ["WebAPI.Product.csproj", ""]
+RUN dotnet restore "./WebAPI.Product.csproj"
 COPY . .
-WORKDIR "/src/WebAPI.Product"
-RUN dotnet build "./WebAPI.Product.csproj" -c $BUILD_CONFIGURATION -o /app/build
+#WORKDIR "/src/WebAPI.Product/."
+RUN dotnet build "WebAPI.Product.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "./WebAPI.Product.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "WebAPI.Product.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app

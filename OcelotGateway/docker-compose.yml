@@ -1,0 +1,20 @@
+version: '2'
+services:
+  ocelot:
+    build: 
+      context: ./OcelotGateway
+      dockerfile: Dockerfile
+    ports:
+      - "7001:80"
+  productapi:
+    build: 
+      context: ./WebAPI.Product
+      dockerfile: Dockerfile
+    ports:
+      - "5001:80"
+  cartapi:
+    build: 
+      context: ./WebAPI.Cart
+      dockerfile: Dockerfile
+    ports:
+      - "6001:80"
