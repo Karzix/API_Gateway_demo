@@ -1,7 +1,7 @@
 ﻿{
     "Routes": [
         {
-            "DownstreamPathTemplate": "/product-api/{controller}",
+            "DownstreamPathTemplate": "/product-api/{everything}",
             "DownstreamScheme": "http",
             "DownstreamHostAndPorts": [
                 {
@@ -10,17 +10,18 @@
                 }
             ],
             "UpstreamHttpMethod": [ "Get" ],
-            "UpstreamPathTemplate": "/product-gateway/{controller}",
+            "UpstreamPathTemplate": "/product-gateway/{everything}",
             "RateLimitOptions": {
                 "ClientWhitelist": [],
                 "EnableRateLimiting": true,
                 "Period": "1m",
                 "PeriodTimespan": 60,
                 "Limit": 10
-            }
+            },
+            "SwaggerKey": "api1"
         },
         {
-            "DownstreamPathTemplate": "/cart-api/{controller}",
+            "DownstreamPathTemplate": "/cart-api/{everything}",
             "DownstreamScheme": "http",
             "DownstreamHostAndPorts": [
                 {
@@ -29,17 +30,41 @@
                 }
             ],
             "UpstreamHttpMethod": [ "Get" ],
-            "UpstreamPathTemplate": "/cart-gateway/{controller}",
+            "UpstreamPathTemplate": "/cart-gateway/{everything}",
             "RateLimitOptions": {
                 "ClientWhitelist": [],
                 "EnableRateLimiting": true,
                 "Period": "1m",
                 "PeriodTimespan": 60,
                 "Limit": 10
-            }
+            },
+            "SwaggerKey": "api2"
+        }
+    ],
+
+    "SwaggerEndPoints": [
+        {
+            "Key": "api1",
+            "Config": [
+                {
+                    "Name": "API product",
+                    "Version": "v1",
+                    "Url": "http://localhost:5001/swagger/v1/swagger.json"
+                }
+            ]
+        },
+        {
+            "Key": "api2",
+            "Config": [
+                {
+                    "Name": "API cart",
+                    "Version": "v1",
+                    "Url": "http://localhost:6001/swagger/v1/swagger.json"
+                }
+            ]
         }
     ],
     "GlobalConfiguration": {
-        "BaseUrl": "http://localhost:5000"
+        "BaseUrl": "http://localhost:7001"
     }
 }
