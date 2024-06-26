@@ -13,8 +13,13 @@ namespace WebAPI.Product.Controllers
             _logger = logger;
         }
         [HttpGet]
-        public IActionResult GetFirst()
+        public async Task<IActionResult> GetFirst()
         {
+            Random random = new Random();
+            int minValue = 100;
+            int maxValue = 1000;
+            int randomNumber = random.Next(minValue, maxValue);
+            await Task.Delay(randomNumber);
             return Ok("product service - first");
         }
     }
