@@ -10,7 +10,14 @@
                 }
             ],
             "UpstreamHttpMethod": [ "Get" ],
-            "UpstreamPathTemplate": "/product-gateway/{controller}"
+            "UpstreamPathTemplate": "/product-gateway/{controller}",
+            "RateLimitOptions": {
+                "ClientWhitelist": [],
+                "EnableRateLimiting": true,
+                "Period": "1m",
+                "PeriodTimespan": 60,
+                "Limit": 10
+            }
         },
         {
             "DownstreamPathTemplate": "/cart-api/{controller}",
@@ -22,10 +29,17 @@
                 }
             ],
             "UpstreamHttpMethod": [ "Get" ],
-            "UpstreamPathTemplate": "/cart-gateway/{controller}"
+            "UpstreamPathTemplate": "/cart-gateway/{controller}",
+            "RateLimitOptions": {
+                "ClientWhitelist": [],
+                "EnableRateLimiting": true,
+                "Period": "1m",
+                "PeriodTimespan": 60,
+                "Limit": 10
+            }
         }
     ],
     "GlobalConfiguration": {
-        "BaseUrl" :  "http://localhost5021"
+        "BaseUrl": "http://localhost:5000"
     }
 }

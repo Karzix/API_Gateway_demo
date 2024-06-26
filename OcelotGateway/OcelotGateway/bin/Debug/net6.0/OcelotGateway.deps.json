@@ -10,10 +10,23 @@
         "dependencies": {
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.20.1",
           "Ocelot": "23.3.3",
+          "Ocelot.Provider.Consul": "23.3.3",
           "Swashbuckle.AspNetCore": "6.5.0"
         },
         "runtime": {
           "OcelotGateway.dll": {}
+        }
+      },
+      "Consul/1.7.14.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Consul.dll": {
+            "assemblyVersion": "1.7.14.1",
+            "fileVersion": "1.7.14.1"
+          }
         }
       },
       "FluentValidation/11.8.0": {
@@ -125,6 +138,18 @@
           }
         }
       },
+      "Ocelot.Provider.Consul/23.3.3": {
+        "dependencies": {
+          "Consul": "1.7.14.1",
+          "Ocelot": "23.3.3"
+        },
+        "runtime": {
+          "lib/net6.0/Ocelot.Provider.Consul.dll": {
+            "assemblyVersion": "23.3.3.0",
+            "fileVersion": "23.3.3.0"
+          }
+        }
+      },
       "Swashbuckle.AspNetCore/6.5.0": {
         "dependencies": {
           "Microsoft.Extensions.ApiDescription.Server": "6.0.5",
@@ -171,6 +196,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Consul/1.7.14.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JM1/sHsPhxTcawNKp0PaPRXeMqghjbn9L6lgPyNW6P5SnkcJ/rchQsHnDm8TlT51/ARX4bmboUzFRzU6arjSQQ==",
+      "path": "consul/1.7.14.1",
+      "hashPath": "consul.1.7.14.1.nupkg.sha512"
     },
     "FluentValidation/11.8.0": {
       "type": "package",
@@ -269,6 +301,13 @@
       "sha512": "sha512-BQ+yR5JqFjmJQjxKA0sJYAWbZW7cJXDuaYCkKH1mAZ0R+D80BhALxVEWNVy7eeB3YtB9EqOyL3LWoNMfXuYkyA==",
       "path": "ocelot/23.3.3",
       "hashPath": "ocelot.23.3.3.nupkg.sha512"
+    },
+    "Ocelot.Provider.Consul/23.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-X5pmq8WowF1caLnRHD3NuF8GQI9D9R6sBn+r5YGly6SA7/Nz24W3hQ/PRhjhgtRv9SDafQU0YGQDbRb7xIBFNw==",
+      "path": "ocelot.provider.consul/23.3.3",
+      "hashPath": "ocelot.provider.consul.23.3.3.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore/6.5.0": {
       "type": "package",

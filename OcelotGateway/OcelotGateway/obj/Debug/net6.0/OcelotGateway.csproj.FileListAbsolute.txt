@@ -40,3 +40,6 @@ D:\GitHub\API_Gateway_demo\OcelotGateway\OcelotGateway\obj\Debug\net6.0\refint\O
 D:\GitHub\API_Gateway_demo\OcelotGateway\OcelotGateway\obj\Debug\net6.0\OcelotGateway.pdb
 D:\GitHub\API_Gateway_demo\OcelotGateway\OcelotGateway\obj\Debug\net6.0\OcelotGateway.genruntimeconfig.cache
 D:\GitHub\API_Gateway_demo\OcelotGateway\OcelotGateway\obj\Debug\net6.0\ref\OcelotGateway.dll
+D:\GitHub\API_Gateway_demo\OcelotGateway\OcelotGateway\obj\Debug\net6.0\OcelotGateway.sourcelink.json
+D:\GitHub\API_Gateway_demo\OcelotGateway\OcelotGateway\bin\Debug\net6.0\Consul.dll
+D:\GitHub\API_Gateway_demo\OcelotGateway\OcelotGateway\bin\Debug\net6.0\Ocelot.Provider.Consul.dll

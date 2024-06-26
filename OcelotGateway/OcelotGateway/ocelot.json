@@ -15,7 +15,7 @@
                 "ClientWhitelist": [],
                 "EnableRateLimiting": true,
                 "Period": "1m",
-                "PeriodTimespan": 1,
+                "PeriodTimespan": 60,
                 "Limit": 10
             }
         },
@@ -34,12 +34,12 @@
                 "ClientWhitelist": [],
                 "EnableRateLimiting": true,
                 "Period": "1m",
-                "PeriodTimespan": 1,
+                "PeriodTimespan": 60,
                 "Limit": 10
             }
         }
     ],
     "GlobalConfiguration": {
-        "BaseUrl" :  "http://localhost5021"
+        "BaseUrl": "http://localhost:5000"
     }
 }
