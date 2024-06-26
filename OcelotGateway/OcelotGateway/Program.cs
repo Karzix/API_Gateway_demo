@@ -11,7 +11,7 @@ IConfiguration configuration = new ConfigurationBuilder()
     .Build();
 
 Log.Logger = new LoggerConfiguration()
-        .WriteTo.Seq("http://localhost:5341")
+        .WriteTo.Seq("http://host.docker.internal:8080")
         .CreateLogger();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

@@ -1,4 +1,7 @@
 version: '2'
+networks:
+  mynetwork:
+    driver: bridge
 services:
   ocelot:
     build: 
@@ -6,15 +9,29 @@ services:
       dockerfile: Dockerfile
     ports:
       - "7001:80"
+    networks:
+      - mynetwork
   productapi:
     build: 
       context: ./WebAPI.Product
       dockerfile: Dockerfile
     ports:
       - "5001:80"
+    networks:
+      - mynetwork
   cartapi:
     build: 
       context: ./WebAPI.Cart
       dockerfile: Dockerfile
     ports:
       - "6001:80"
+    networks:
+      - mynetwork
+  seq:
+    image: datalust/seq:latest  
+    ports:
+      - "8080:80" 
+    networks:
+      - mynetwork
+    environment:
+      ACCEPT_EULA: "Y"
