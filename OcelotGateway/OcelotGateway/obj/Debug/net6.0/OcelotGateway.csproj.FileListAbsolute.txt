@@ -1,6 +1,5 @@
 D:\GitHub\API_Gateway_demo\OcelotGateway\OcelotGateway\bin\Debug\net6.0\appsettings.Development.json
 D:\GitHub\API_Gateway_demo\OcelotGateway\OcelotGateway\bin\Debug\net6.0\appsettings.json
-D:\GitHub\API_Gateway_demo\OcelotGateway\OcelotGateway\bin\Debug\net6.0\ocelot.json
 D:\GitHub\API_Gateway_demo\OcelotGateway\OcelotGateway\bin\Debug\net6.0\OcelotGateway.exe
 D:\GitHub\API_Gateway_demo\OcelotGateway\OcelotGateway\bin\Debug\net6.0\OcelotGateway.deps.json
 D:\GitHub\API_Gateway_demo\OcelotGateway\OcelotGateway\bin\Debug\net6.0\OcelotGateway.runtimeconfig.json
@@ -105,3 +104,5 @@ D:\GitHub\API_Gateway_demo\OcelotGateway\OcelotGateway\bin\Debug\net6.0\System.D
 D:\GitHub\API_Gateway_demo\OcelotGateway\OcelotGateway\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 D:\GitHub\API_Gateway_demo\OcelotGateway\OcelotGateway\bin\Debug\net6.0\System.Text.Json.dll
 D:\GitHub\API_Gateway_demo\OcelotGateway\OcelotGateway\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\GitHub\API_Gateway_demo\OcelotGateway\OcelotGateway\bin\Debug\net6.0\ocelot.json
+D:\GitHub\API_Gateway_demo\OcelotGateway\OcelotGateway\bin\Debug\net6.0\ocelotDev.json

@@ -9,6 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <_ContentIncludedByDefault Remove="ocelot.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.20.1" />
     <PackageReference Include="MMLib.SwaggerForOcelot" Version="6.3.2" />
     <PackageReference Include="Ocelot" Version="23.3.3" />

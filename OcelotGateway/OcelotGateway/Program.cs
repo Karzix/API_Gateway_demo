@@ -6,10 +6,20 @@ using Serilog;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-IConfiguration configuration = new ConfigurationBuilder()
+var environment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
+IConfigurationRoot configuration;
+if (environment == "Development")
+{
+    configuration = new ConfigurationBuilder()
+    .AddJsonFile("ocelotDev.json")
+    .Build();
+}
+else
+{
+    configuration = new ConfigurationBuilder()
     .AddJsonFile("ocelot.json")
     .Build();
-
+}
 Log.Logger = new LoggerConfiguration()
         .WriteTo.Seq("http://host.docker.internal:8080")
         .CreateLogger();
