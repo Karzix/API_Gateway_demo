@@ -48,8 +48,8 @@ namespace WebAPI.Product.Controllers
             var pd = productService.Add(request);
 
             var db = _redis.GetDatabase();
-            await db.StringSetAsync("products", JsonSerializer.Serialize(pd));
-
+            var lstProduct = productService.GetAll();
+            await db.StringSetAsync("products", JsonSerializer.Serialize(lstProduct));
             return Ok();
         }
         
