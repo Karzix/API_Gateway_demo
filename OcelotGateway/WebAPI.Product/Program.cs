@@ -1,12 +1,18 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using WebAPI.Product.Data;
 using WebAPI.Product.Repository;
 using WebAPI.Product.Service;
+using StackExchange.Redis;
+
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IProductService, ProductService>();
 // Add services to the container.
+var redisConnectionString = builder.Configuration.GetSection("Redis")["ConnectionString"];
+var connectionMultiplexer = ConnectionMultiplexer.Connect(redisConnectionString);
+builder.Services.AddSingleton<IConnectionMultiplexer>(connectionMultiplexer);
 
 builder.Services.AddControllers();
 builder.Services.AddDbContext<ProductDBContext>(options =>

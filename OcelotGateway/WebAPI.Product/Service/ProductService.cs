@@ -12,11 +12,11 @@ namespace WebAPI.Product.Service
             _productRepository = productRepository;
         }
 
-        public string Add(ProductModel product)
+        public ProductModel Add(ProductModel product)
         {
             product.Id = Guid.NewGuid();
             _productRepository.Add(product);
-            return "OK";
+            return product;
         }
     }
 }

@@ -1,5 +1,8 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using System.Text.Json;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using StackExchange.Redis;
 using WebAPI.Product.Model;
 using WebAPI.Product.Service;
 
@@ -11,10 +14,12 @@ namespace WebAPI.Product.Controllers
     {
         private ILogger<ProductController> _logger;
         private IProductService productService;
-        public ProductController(ILogger<ProductController> logger, IProductService productService)
+        private readonly IConnectionMultiplexer _redis;
+        public ProductController(ILogger<ProductController> logger, IProductService productService, IConnectionMultiplexer redis)
         {
             _logger = logger;
             this.productService = productService;
+            _redis = redis;
         }
         [HttpGet]
         public async Task<IActionResult> GetFirst()
@@ -24,13 +29,21 @@ namespace WebAPI.Product.Controllers
             int maxValue = 1000;
             int randomNumber = random.Next(minValue, maxValue);
             await Task.Delay(randomNumber);
-            return Ok("product service - first");
+            var db = _redis.GetDatabase();
+            var value = await db.StringGetAsync("products");
+            return Ok(value.ToString());
         }
         [HttpPost]
-        public IActionResult Post(ProductModel request)
+        public async Task<IActionResult> Post(ProductModel request)
         {
-            productService.Add(request);
+           
+            var pd = productService.Add(request);
+
+            var db = _redis.GetDatabase();
+            await db.StringSetAsync("products", JsonSerializer.Serialize(pd));
+
             return Ok();
         }
+        
     }
 }

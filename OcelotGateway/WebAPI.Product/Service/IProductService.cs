@@ -4,6 +4,6 @@ namespace WebAPI.Product.Service
 {
     public interface IProductService
     {
-        public string Add(ProductModel product);
+        public ProductModel Add(ProductModel product);
     }
 }
