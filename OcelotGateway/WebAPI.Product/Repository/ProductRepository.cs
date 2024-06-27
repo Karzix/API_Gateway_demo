@@ -17,5 +17,10 @@ namespace WebAPI.Product.Repository
         {
             dbContext.Add(product);
         }
+
+        public List<ProductModel> GetAll()
+        {
+            return dbContext.Product.ToList();
+        }
     }
 }

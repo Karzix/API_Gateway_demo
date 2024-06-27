@@ -9,7 +9,7 @@
                     "Port": 5001
                 }
             ],
-            "UpstreamHttpMethod": [ "Get" ],
+            "UpstreamHttpMethod": [ "Get", "Post" ],
             "UpstreamPathTemplate": "/product-gateway/{everything}",
             "RateLimitOptions": {
                 "ClientWhitelist": [],
@@ -29,7 +29,7 @@
                     "Port": 6001
                 }
             ],
-            "UpstreamHttpMethod": [ "Get" ],
+            "UpstreamHttpMethod": [ "Get", "Post" ],
             "UpstreamPathTemplate": "/cart-gateway/{everything}",
             "RateLimitOptions": {
                 "ClientWhitelist": [],

@@ -35,3 +35,8 @@ services:
       - mynetwork
     environment:
       ACCEPT_EULA: "Y"
+  redis:
+    image: redis
+    container_name: my-redis
+    ports:
+      - "6379:6379"

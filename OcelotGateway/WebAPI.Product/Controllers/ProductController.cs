@@ -31,6 +31,14 @@ namespace WebAPI.Product.Controllers
             await Task.Delay(randomNumber);
             var db = _redis.GetDatabase();
             var value = await db.StringGetAsync("products");
+
+            if (value.IsNullOrEmpty)
+            {
+                var lstProduct = productService.GetAll();
+                await db.StringSetAsync("products", JsonSerializer.Serialize(lstProduct));
+                value = await db.StringGetAsync("products");
+            }
+
             return Ok(value.ToString());
         }
         [HttpPost]

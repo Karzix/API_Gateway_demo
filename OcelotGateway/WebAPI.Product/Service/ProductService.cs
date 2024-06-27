@@ -18,5 +18,10 @@ namespace WebAPI.Product.Service
             _productRepository.Add(product);
             return product;
         }
+
+        public List<ProductModel> GetAll()
+        {
+            return _productRepository.GetAll();
+        }
     }
 }

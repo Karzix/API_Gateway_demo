@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "D:\\GitHub\\API_Gateway_demo\\OcelotGateway\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2D7C6B47-C366-4468-9A58-03C5810DFE04}|WebAPI.Product\\WebAPI.Product.csproj|d:\\github\\api_gateway_demo\\ocelotgateway\\webapi.product\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2D7C6B47-C366-4468-9A58-03C5810DFE04}|WebAPI.Product\\WebAPI.Product.csproj|solutionrelative:webapi.product\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{F2DD5AD6-60A9-4425-A620-F71B4FCADCA2}|OcelotGateway\\OcelotGateway.csproj|d:\\github\\api_gateway_demo\\ocelotgateway\\ocelotgateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F2DD5AD6-60A9-4425-A620-F71B4FCADCA2}|OcelotGateway\\OcelotGateway.csproj|solutionrelative:ocelotgateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D7C6B47-C366-4468-9A58-03C5810DFE04}|WebAPI.Product\\WebAPI.Product.csproj|d:\\github\\api_gateway_demo\\ocelotgateway\\webapi.product\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D7C6B47-C366-4468-9A58-03C5810DFE04}|WebAPI.Product\\WebAPI.Product.csproj|solutionrelative:webapi.product\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7C6B47-C366-4468-9A58-03C5810DFE04}|WebAPI.Product\\WebAPI.Product.csproj|d:\\github\\api_gateway_demo\\ocelotgateway\\webapi.product\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2D7C6B47-C366-4468-9A58-03C5810DFE04}|WebAPI.Product\\WebAPI.Product.csproj|solutionrelative:webapi.product\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7C6B47-C366-4468-9A58-03C5810DFE04}|WebAPI.Product\\WebAPI.Product.csproj|d:\\github\\api_gateway_demo\\ocelotgateway\\webapi.product\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7C6B47-C366-4468-9A58-03C5810DFE04}|WebAPI.Product\\WebAPI.Product.csproj|solutionrelative:webapi.product\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D7C6B47-C366-4468-9A58-03C5810DFE04}|WebAPI.Product\\WebAPI.Product.csproj|d:\\github\\api_gateway_demo\\ocelotgateway\\webapi.product\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 17,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,20 +94,46 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "D:\\GitHub\\API_Gateway_demo\\OcelotGateway\\WebAPI.Product\\Repository\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "WebAPI.Product\\Repository\\ProductRepository.cs",
+              "ToolTip": "D:\\GitHub\\API_Gateway_demo\\OcelotGateway\\WebAPI.Product\\Repository\\ProductRepository.cs",
+              "RelativeToolTip": "WebAPI.Product\\Repository\\ProductRepository.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBYAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T10:00:20.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ocelot.json",
+              "DocumentMoniker": "D:\\GitHub\\API_Gateway_demo\\OcelotGateway\\OcelotGateway\\ocelot.json",
+              "RelativeDocumentMoniker": "OcelotGateway\\ocelot.json",
+              "ToolTip": "D:\\GitHub\\API_Gateway_demo\\OcelotGateway\\OcelotGateway\\ocelot.json",
+              "RelativeToolTip": "OcelotGateway\\ocelot.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-27T09:55:15.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "ProductController.cs",
               "DocumentMoniker": "D:\\GitHub\\API_Gateway_demo\\OcelotGateway\\WebAPI.Product\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "WebAPI.Product\\Controllers\\ProductController.cs",
               "ToolTip": "D:\\GitHub\\API_Gateway_demo\\OcelotGateway\\WebAPI.Product\\Controllers\\ProductController.cs",
               "RelativeToolTip": "WebAPI.Product\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAYwCoAAAA7AAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAwCYAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-27T09:45:56.86Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\GitHub\\API_Gateway_demo\\OcelotGateway\\WebAPI.Product\\Program.cs",
               "RelativeDocumentMoniker": "WebAPI.Product\\Program.cs",
@@ -112,13 +146,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\GitHub\\API_Gateway_demo\\OcelotGateway\\WebAPI.Product\\appsettings.json",
               "RelativeDocumentMoniker": "WebAPI.Product\\appsettings.json",
               "ToolTip": "D:\\GitHub\\API_Gateway_demo\\OcelotGateway\\WebAPI.Product\\appsettings.json",
               "RelativeToolTip": "WebAPI.Product\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAGAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-06-27T09:41:10.562Z",
               "EditorCaption": ""
