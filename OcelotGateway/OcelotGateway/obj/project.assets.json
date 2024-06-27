@@ -1146,6 +1146,23 @@
           }
         }
       },
+      "Serilog.Sinks.Http/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
+          "Serilog.Sinks.File": "5.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Serilog.Sinks.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Serilog.Sinks.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Serilog.Sinks.Seq/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -4142,6 +4159,25 @@
         "serilog.sinks.file.nuspec"
       ]
     },
+    "Serilog.Sinks.Http/9.0.0": {
+      "sha512": "c246Bw1vXtvht/krwQXGwuZ4U2kKxRf8d9iaazZDodnOohTlRR4jZyQS/slWHSjJAj8ZDejCQcITnu+TkYmdFw==",
+      "type": "package",
+      "path": "serilog.sinks.http/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net462/Serilog.Sinks.Http.dll",
+        "lib/net462/Serilog.Sinks.Http.xml",
+        "lib/netstandard2.0/Serilog.Sinks.Http.dll",
+        "lib/netstandard2.0/Serilog.Sinks.Http.xml",
+        "lib/netstandard2.1/Serilog.Sinks.Http.dll",
+        "lib/netstandard2.1/Serilog.Sinks.Http.xml",
+        "serilog-sink-nuget.png",
+        "serilog.sinks.http.9.0.0.nupkg.sha512",
+        "serilog.sinks.http.nuspec"
+      ]
+    },
     "Serilog.Sinks.Seq/8.0.0": {
       "sha512": "z5ig56/qzjkX6Fj4U/9m1g8HQaQiYPMZS4Uevtjg1I+WWzoGSf5t/E+6JbMP/jbZYhU63bA5NJN5y0x+qqx2Bw==",
       "type": "package",
@@ -6777,6 +6813,7 @@
       "Ocelot.Provider.Consul >= 23.3.3",
       "Serilog >= 4.0.0",
       "Serilog.AspNetCore >= 8.0.1",
+      "Serilog.Sinks.Http >= 9.0.0",
       "Serilog.Sinks.Seq >= 8.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
@@ -6854,6 +6891,10 @@
           "Serilog.AspNetCore": {
             "target": "Package",
             "version": "[8.0.1, )"
+          },
+          "Serilog.Sinks.Http": {
+            "target": "Package",
+            "version": "[9.0.0, )"
           },
           "Serilog.Sinks.Seq": {
             "target": "Package",

@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "D:\\GitHub\\API_Gateway_demo\\OcelotGateway\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F2DD5AD6-60A9-4425-A620-F71B4FCADCA2}|OcelotGateway\\OcelotGateway.csproj|d:\\github\\api_gateway_demo\\ocelotgateway\\ocelotgateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2DD5AD6-60A9-4425-A620-F71B4FCADCA2}|OcelotGateway\\OcelotGateway.csproj|solutionrelative:ocelotgateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D7C6B47-C366-4468-9A58-03C5810DFE04}|WebAPI.Product\\WebAPI.Product.csproj|d:\\github\\api_gateway_demo\\ocelotgateway\\webapi.product\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2D7C6B47-C366-4468-9A58-03C5810DFE04}|WebAPI.Product\\WebAPI.Product.csproj|solutionrelative:webapi.product\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2DD5AD6-60A9-4425-A620-F71B4FCADCA2}|OcelotGateway\\OcelotGateway.csproj|d:\\github\\api_gateway_demo\\ocelotgateway\\ocelotgateway\\ocelotdev.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F2DD5AD6-60A9-4425-A620-F71B4FCADCA2}|OcelotGateway\\OcelotGateway.csproj|solutionrelative:ocelotgateway\\ocelotdev.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\API_Gateway_demo\\OcelotGateway\\WebAPI.Product\\Migrations\\20240627085001_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebAPI.Product\\Migrations\\20240627085001_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7C6B47-C366-4468-9A58-03C5810DFE04}|WebAPI.Product\\WebAPI.Product.csproj|d:\\github\\api_gateway_demo\\ocelotgateway\\webapi.product\\data\\productdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7C6B47-C366-4468-9A58-03C5810DFE04}|WebAPI.Product\\WebAPI.Product.csproj|solutionrelative:webapi.product\\data\\productdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7C6B47-C366-4468-9A58-03C5810DFE04}|WebAPI.Product\\WebAPI.Product.csproj|d:\\github\\api_gateway_demo\\ocelotgateway\\webapi.product\\model\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7C6B47-C366-4468-9A58-03C5810DFE04}|WebAPI.Product\\WebAPI.Product.csproj|solutionrelative:webapi.product\\model\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7C6B47-C366-4468-9A58-03C5810DFE04}|WebAPI.Product\\WebAPI.Product.csproj|d:\\github\\api_gateway_demo\\ocelotgateway\\webapi.product\\data\\appsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7C6B47-C366-4468-9A58-03C5810DFE04}|WebAPI.Product\\WebAPI.Product.csproj|solutionrelative:webapi.product\\data\\appsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D7C6B47-C366-4468-9A58-03C5810DFE04}|WebAPI.Product\\WebAPI.Product.csproj|d:\\github\\api_gateway_demo\\ocelotgateway\\webapi.product\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D7C6B47-C366-4468-9A58-03C5810DFE04}|WebAPI.Product\\WebAPI.Product.csproj|solutionrelative:webapi.product\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2DD5AD6-60A9-4425-A620-F71B4FCADCA2}|OcelotGateway\\OcelotGateway.csproj|d:\\github\\api_gateway_demo\\ocelotgateway\\ocelotgateway\\ocelotgateway.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{F2DD5AD6-60A9-4425-A620-F71B4FCADCA2}|OcelotGateway\\OcelotGateway.csproj|solutionrelative:ocelotgateway\\ocelotgateway.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 18,
+          "SelectedChildIndex": 19,
           "Children": [
             {
               "$type": "Bookmark",
@@ -91,52 +99,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ocelotDev.json",
-              "DocumentMoniker": "D:\\GitHub\\API_Gateway_demo\\OcelotGateway\\OcelotGateway\\ocelotDev.json",
-              "RelativeDocumentMoniker": "OcelotGateway\\ocelotDev.json",
-              "ToolTip": "D:\\GitHub\\API_Gateway_demo\\OcelotGateway\\OcelotGateway\\ocelotDev.json",
-              "RelativeToolTip": "OcelotGateway\\ocelotDev.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-27T03:57:40.746Z",
+              "Title": "20240627085001_first.cs",
+              "DocumentMoniker": "D:\\GitHub\\API_Gateway_demo\\OcelotGateway\\WebAPI.Product\\Migrations\\20240627085001_first.cs",
+              "RelativeDocumentMoniker": "WebAPI.Product\\Migrations\\20240627085001_first.cs",
+              "ToolTip": "D:\\GitHub\\API_Gateway_demo\\OcelotGateway\\WebAPI.Product\\Migrations\\20240627085001_first.cs",
+              "RelativeToolTip": "WebAPI.Product\\Migrations\\20240627085001_first.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T08:50:01.884Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "OcelotGateway.csproj",
-              "DocumentMoniker": "D:\\GitHub\\API_Gateway_demo\\OcelotGateway\\OcelotGateway\\OcelotGateway.csproj",
-              "RelativeDocumentMoniker": "OcelotGateway\\OcelotGateway.csproj",
-              "ToolTip": "D:\\GitHub\\API_Gateway_demo\\OcelotGateway\\OcelotGateway\\OcelotGateway.csproj",
-              "RelativeToolTip": "OcelotGateway\\OcelotGateway.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-27T03:51:48.461Z"
+              "Title": "ProductModel.cs",
+              "DocumentMoniker": "D:\\GitHub\\API_Gateway_demo\\OcelotGateway\\WebAPI.Product\\Model\\ProductModel.cs",
+              "RelativeDocumentMoniker": "WebAPI.Product\\Model\\ProductModel.cs",
+              "ToolTip": "D:\\GitHub\\API_Gateway_demo\\OcelotGateway\\WebAPI.Product\\Model\\ProductModel.cs",
+              "RelativeToolTip": "WebAPI.Product\\Model\\ProductModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T08:48:26.856Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\GitHub\\API_Gateway_demo\\OcelotGateway\\WebAPI.Product\\Program.cs",
-              "RelativeDocumentMoniker": "WebAPI.Product\\Program.cs",
-              "ToolTip": "D:\\GitHub\\API_Gateway_demo\\OcelotGateway\\WebAPI.Product\\Program.cs",
-              "RelativeToolTip": "WebAPI.Product\\Program.cs",
+              "Title": "ProductDBContext.cs",
+              "DocumentMoniker": "D:\\GitHub\\API_Gateway_demo\\OcelotGateway\\WebAPI.Product\\Data\\ProductDBContext.cs",
+              "RelativeDocumentMoniker": "WebAPI.Product\\Data\\ProductDBContext.cs",
+              "ToolTip": "D:\\GitHub\\API_Gateway_demo\\OcelotGateway\\WebAPI.Product\\Data\\ProductDBContext.cs",
+              "RelativeToolTip": "WebAPI.Product\\Data\\ProductDBContext.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T08:47:29.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppSetting.cs",
+              "DocumentMoniker": "D:\\GitHub\\API_Gateway_demo\\OcelotGateway\\WebAPI.Product\\Data\\AppSetting.cs",
+              "RelativeDocumentMoniker": "WebAPI.Product\\Data\\AppSetting.cs",
+              "ToolTip": "D:\\GitHub\\API_Gateway_demo\\OcelotGateway\\WebAPI.Product\\Data\\AppSetting.cs",
+              "RelativeToolTip": "WebAPI.Product\\Data\\AppSetting.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T06:14:48.191Z",
+              "WhenOpened": "2024-06-27T08:47:28.939Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\GitHub\\API_Gateway_demo\\OcelotGateway\\WebAPI.Product\\appsettings.json",
+              "RelativeDocumentMoniker": "WebAPI.Product\\appsettings.json",
+              "ToolTip": "D:\\GitHub\\API_Gateway_demo\\OcelotGateway\\WebAPI.Product\\appsettings.json",
+              "RelativeToolTip": "WebAPI.Product\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-27T08:15:34.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\GitHub\\API_Gateway_demo\\OcelotGateway\\OcelotGateway\\Program.cs",
-              "RelativeDocumentMoniker": "OcelotGateway\\Program.cs",
-              "ToolTip": "D:\\GitHub\\API_Gateway_demo\\OcelotGateway\\OcelotGateway\\Program.cs",
-              "RelativeToolTip": "OcelotGateway\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAANAAAA",
+              "DocumentMoniker": "D:\\GitHub\\API_Gateway_demo\\OcelotGateway\\WebAPI.Product\\Program.cs",
+              "RelativeDocumentMoniker": "WebAPI.Product\\Program.cs",
+              "ToolTip": "D:\\GitHub\\API_Gateway_demo\\OcelotGateway\\WebAPI.Product\\Program.cs",
+              "RelativeToolTip": "WebAPI.Product\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T04:24:03.547Z",
+              "WhenOpened": "2024-06-27T08:15:30.846Z",
               "EditorCaption": ""
             }
           ]

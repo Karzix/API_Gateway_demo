@@ -106,3 +106,4 @@ D:\GitHub\API_Gateway_demo\OcelotGateway\OcelotGateway\bin\Debug\net6.0\System.T
 D:\GitHub\API_Gateway_demo\OcelotGateway\OcelotGateway\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 D:\GitHub\API_Gateway_demo\OcelotGateway\OcelotGateway\bin\Debug\net6.0\ocelot.json
 D:\GitHub\API_Gateway_demo\OcelotGateway\OcelotGateway\bin\Debug\net6.0\ocelotDev.json
+D:\GitHub\API_Gateway_demo\OcelotGateway\OcelotGateway\bin\Debug\net6.0\Serilog.Sinks.Http.dll

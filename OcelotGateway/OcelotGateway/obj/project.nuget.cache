@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "PDVtRvUK8hQ=",
+  "dgSpecHash": "IYeCtlGt91o=",
   "success": true,
   "projectFilePath": "D:\\GitHub\\API_Gateway_demo\\OcelotGateway\\OcelotGateway\\OcelotGateway.csproj",
   "expectedPackageFiles": [
@@ -76,6 +76,7 @@
     "C:\\Users\\ANH KIET\\.nuget\\packages\\serilog.sinks.console\\5.0.0\\serilog.sinks.console.5.0.0.nupkg.sha512",
     "C:\\Users\\ANH KIET\\.nuget\\packages\\serilog.sinks.debug\\2.0.0\\serilog.sinks.debug.2.0.0.nupkg.sha512",
     "C:\\Users\\ANH KIET\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
+    "C:\\Users\\ANH KIET\\.nuget\\packages\\serilog.sinks.http\\9.0.0\\serilog.sinks.http.9.0.0.nupkg.sha512",
     "C:\\Users\\ANH KIET\\.nuget\\packages\\serilog.sinks.seq\\8.0.0\\serilog.sinks.seq.8.0.0.nupkg.sha512",
     "C:\\Users\\ANH KIET\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\ANH KIET\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",

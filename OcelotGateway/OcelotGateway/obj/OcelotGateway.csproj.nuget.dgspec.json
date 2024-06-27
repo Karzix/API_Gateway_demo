@@ -74,6 +74,10 @@
               "target": "Package",
               "version": "[8.0.1, )"
             },
+            "Serilog.Sinks.Http": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Serilog.Sinks.Seq": {
               "target": "Package",
               "version": "[8.0.0, )"
