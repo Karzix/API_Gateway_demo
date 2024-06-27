@@ -1,6 +1,7 @@
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
+using OcelotGateway;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -20,9 +21,15 @@ else
     .AddJsonFile("ocelot.json")
     .Build();
 }
+var configurationAppSetting = new ConfigurationBuilder()
+                .AddJsonFile("appsettings.json")
+                .Build();
 Log.Logger = new LoggerConfiguration()
-        .WriteTo.Seq("http://host.docker.internal:8080")
-        .CreateLogger();
+    .ReadFrom.Configuration(configurationAppSetting) 
+    //.Enrich.FromLogContext()
+    .CreateLogger();
+
+//builder.Host.UseSerilog();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -38,18 +45,7 @@ var app = builder.Build();
     app.UseSwagger();
     app.UseSwaggerForOcelotUI();
 //}
-app.Use(async (context, next) =>
-{
-    var stopwatch = Stopwatch.StartNew();
-    await next();
-    stopwatch.Stop();
-
-    var responseTimeMs = stopwatch.ElapsedMilliseconds;
-    if (responseTimeMs > 500)
-    {
-        Log.Warning($"Request {context.Request.Path} took {responseTimeMs}ms");
-    }
-});
+app.UseMiddleware<RequestLoggingMiddleware>();
 app.UseHttpsRedirection();
 app.UseOcelot().Wait();
 
