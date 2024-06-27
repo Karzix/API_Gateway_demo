@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using WebAPI.Product.Model;
+using WebAPI.Product.Service;
 
 namespace WebAPI.Product.Controllers
 {
@@ -8,9 +10,11 @@ namespace WebAPI.Product.Controllers
     public class ProductController : ControllerBase
     {
         private ILogger<ProductController> _logger;
-        public ProductController(ILogger<ProductController> logger)
+        private IProductService productService;
+        public ProductController(ILogger<ProductController> logger, IProductService productService)
         {
             _logger = logger;
+            this.productService = productService;
         }
         [HttpGet]
         public async Task<IActionResult> GetFirst()
@@ -21,6 +25,12 @@ namespace WebAPI.Product.Controllers
             int randomNumber = random.Next(minValue, maxValue);
             await Task.Delay(randomNumber);
             return Ok("product service - first");
+        }
+        [HttpPost]
+        public IActionResult Post(ProductModel request)
+        {
+            productService.Add(request);
+            return Ok();
         }
     }
 }
