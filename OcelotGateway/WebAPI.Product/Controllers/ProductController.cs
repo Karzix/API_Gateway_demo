@@ -22,7 +22,7 @@ namespace WebAPI.Product.Controllers
             _redis = redis;
         }
         [HttpGet]
-        public async Task<IActionResult> GetFirst()
+        public async Task<IActionResult> GetAll()
         {
             Random random = new Random();
             int minValue = 100;
